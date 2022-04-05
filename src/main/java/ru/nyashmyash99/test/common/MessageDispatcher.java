@@ -19,6 +19,8 @@ public class MessageDispatcher {
      * @param entity Entity, implementing {@link CommandSender} interface.
      */
     public void sendMessage(CommandSender entity, String message) {
+        System.out.println("test");
+
         if(entity != null)
             for(String messagePart : message.split("\n"))
                 entity.sendMessage(ChatColor.translateAlternateColorCodes('&', messagePart));
