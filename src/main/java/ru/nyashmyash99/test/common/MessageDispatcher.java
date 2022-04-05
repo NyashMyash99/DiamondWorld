@@ -32,4 +32,14 @@ public class MessageDispatcher {
     public void sendConsole(String message) {
         sendMessage(plugin.getServer().getConsoleSender(), message);
     }
+
+    /**
+     * Sends a message on behalf of the plugin to the server console.
+     * <br/>
+     * Send messages separately using the \n separator.
+     */
+    public void sendNotification(String message) {
+        for(String messagePart : message.split("\n"))
+            sendConsole("&7[&c&l!&7] &e" + plugin.getName() + " &7> " + messagePart);
+    }
 }

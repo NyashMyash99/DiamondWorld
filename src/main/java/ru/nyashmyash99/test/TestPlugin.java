@@ -11,6 +11,6 @@ public class TestPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        messageDispatcher.sendConsole("&a > Just a message from plugin &2" + getName() + "&a.");
+        messageDispatcher.sendNotification("&a > Just a message from plugin.");
     }
 }
