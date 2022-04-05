@@ -1,0 +1,9 @@
+name: ${project.artifactId}
+version: ${project.version}
+api-version: "1.16"
+
+author: NyashMyash99
+website: https://nyashmyash99.ru/
+
+main: ru.nyashmyash99.test.TestPlugin
+load: POSTWORLD
