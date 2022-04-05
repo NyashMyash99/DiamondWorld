@@ -11,6 +11,6 @@ public class TestPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        messageDispatcher.sendNotification("&a > Test");
+        messageDispatcher.sendNotification("&a > Plugin has been successfully loaded.");
     }
 }
