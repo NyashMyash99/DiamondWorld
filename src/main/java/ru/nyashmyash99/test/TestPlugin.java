@@ -11,6 +11,6 @@ public class TestPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        messageDispatcher.sendNotification("&a > ??");
+        messageDispatcher.sendNotification("&a > ???");
     }
 }
